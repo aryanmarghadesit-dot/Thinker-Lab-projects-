@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Aryan Marghade</title>
+
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        body {
+            background-image: url("https://img.freepik.com/free-vector/modern-abstract-white-minimal-background_84443-8335.jpg?semt=ais_hybrid&w=740&q=80");
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .animated-box {
+            animation: fadeIn 1.5s ease-out forwards;
+        }
+
+        .portfolio {
+            background-color: #f7f7f7;
+            width: 90%;
+            max-width: 650px;
+            padding: 32px;
+            text-align: center;
+            border-radius: 14px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .profile-pic {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 18px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            margin: 10px 0 4px;
+            font-size: 26px;
+        }
+
+        h2 {
+            margin: 32px 0 12px;
+            color: #333;
+            font-size: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 6px;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.8;
+            margin: 10px 0;
+            font-size: 15px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 12px;
+        }
+
+        ul li {
+            background: #eef1f5;
+            margin: 8px 0;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+            font-size: 14.5px;
+        }
+
+        button {
+            padding: 7px 14px;
+            border: none;
+            border-radius: 6px;
+            background-color: #222;
+            color: white;
+            cursor: pointer;
+            font-size: 13px;
+        }
+
+        button:hover {
+            background-color: #444;
+        }
+
+        /* ===== MOBILE RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+                align-items: flex-start;
+            }
+
+            .portfolio {
+                width: 100%;
+                padding: 22px;
+            }
+
+            .profile-pic {
+                width: 110px;
+                height: 110px;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            p, li {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="animated-box">
+        <div class="portfolio">
+
+            <img src="1.jpg" alt="Profile Photo" class="profile-pic">
+
+            <h1>Aryan Marghade</h1>
+            <p><b>College Student</b> – Symbiosis Institute of Technology (SIT), Nagpur</p>
+
+            <h2>About Me</h2>
+            <p>
+                I am currently in the second semester of my first year at Symbiosis Institute of Technology (SIT), Nagpur.
+                I actively explore multiple technical domains with strong interest in networking, hackathons,
+                and hands-on technical events.
+            </p>
+
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>Python (Basic)</li>
+                <li>Networking Fundamentals</li>
+                <li>Linux Basics & Command Line</li>
+                <li>C Programming</li>
+                <li>C++ Programming</li>
+            </ul>
+
+            <h2>Education</h2>
+            <p>
+                <b>Class 10 (2022)</b> – Maharashtra State Board (SSC)<br>
+                Saraswati Vidyalaya, Nagpur
+            </p>
+            <p>
+                <b>Class 12 (2025)</b> – Science (Computer Science), Maharashtra State Board (HSC)<br>
+                Tiptop Convent School, Nagpur
+            </p>
+            <p>
+                <b>B.Tech – Computer Science (2025–2029)</b><br>
+                Symbiosis Institute of Technology, Nagpur
+            </p>
+
+            <h2>Projects</h2>
+            <p>
+                • Working Website Calculator<br>
+                • Capture The Flag (Linux)<br>
+                • Arduino UNO – Traffic Light & LED System<br>
+                • Random Number Guessing Game (C)<br>
+                • Multi-Functional Calculator (C)<br>
+                • Ordering Website
+            </p>
+
+            <h2>Hackathons & Competitions</h2>
+            <p>
+                • ImmverserAI – Video Generation<br>
+                • Smart India Hackathon – Smart Tourism Platform<br>
+                • The Imitation Game – GGSIPU (UST & ACM Chapter), Delhi<br>
+                • Openserver Hackathon – Unstop<br>
+                • CTF – OverTheWire, hashcat.org<br>
+                • IIIT Nagpur – CodeFiesta, Flash Code, Genathon 3.0<br>
+                • Next Gen Engineering Challenge<br>
+                • Code Clash – IIT Hyderabad
+            </p>
+
+            <h2>Career Interest</h2>
+            <p>
+                Aspiring Network & Security professional with interest in firewalls,
+                system protection, and infrastructure security.
+            </p>
+
+            <h2>Contact Info</h2>
+            <p> Phone:91+ *************</p>
+
+            <p>
+                LinkedIn:
+                <a href="https://in.linkedin.com/in/aryan-marghade-b06515375" target="_blank" rel="noopener">
+                    <button>View</button>
+                </a>
+                <br><br>
+                GitHub:
+                <a href="https://github.com/aryanmarghadesit-dot" target="_blank" rel="noopener">
+                    <button>View</button>
+                </a>
+            </p>
+
+        </div>
+    </div>
+
+</body>
+</html>
